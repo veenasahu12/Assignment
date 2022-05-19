@@ -1,0 +1,23 @@
+.main_div{
+    border: 0.5rem solid black;
+    margin-left: 23rem;
+    margin-right: 23rem;
+    padding: 1rem;
+    background-color: lightgray;
+    
+}
+#plus{
+    font-size: 15px;
+    font-weight: 800;
+    height: 3.5vw;
+}
+#input-div {
+    margin: auto;
+    background-color: lightgray;
+    width: 20vw;
+    padding: 1em;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 1em;
+}
+
