@@ -6,7 +6,7 @@ const TodoItems = ({additems}) => {
 
     return (
             <div >
-                <input type="text" placeholder='Write Something' onChange={(elem) =>{
+                <input type="text" placeholder='Write Something' onChange={(elem) => {
                     setValue(elem.target.value);
                 }} id="input-div">
                 </input>
