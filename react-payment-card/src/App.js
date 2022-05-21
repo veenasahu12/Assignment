@@ -20,7 +20,7 @@ function App() {
         date={new Date().toLocaleDateString()}
         headerLabelTop="Apple Gift"
         subHeader="Pay"
-        devices={["Desktop","Mobile"]}/>
+        devices={["MacOS","Mobile"]}/>
     </div>
   );
 }
