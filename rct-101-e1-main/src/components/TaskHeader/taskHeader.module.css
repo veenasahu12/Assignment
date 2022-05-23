@@ -1,0 +1,13 @@
+.taskHeader {
+  /* Sample */
+  border: 1px solid black;
+  height: 150px;
+  padding-top: 10%;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  background-color: rgb(21, 77, 129);
+}
+.h1{
+    font-size: 200%;
+}

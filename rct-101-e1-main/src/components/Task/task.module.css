@@ -1,0 +1,9 @@
+.task {
+  /* Sample  */
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+.checkbox{
+  height: 50px;
+}
