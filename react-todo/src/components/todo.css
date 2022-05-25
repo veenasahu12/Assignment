@@ -1,0 +1,56 @@
+.itemchecked{
+    text-decoration: line-through;
+    color: green;
+    
+}
+.item{
+    color: black;
+}
+.todo{
+    border: 1px solid black;
+    /* height: 400px; */
+    width: 30%;
+    margin: auto;
+    box-shadow: 0px 0px 5px rgb(129, 147, 117);
+}
+.searchbox{
+    border: 1px solid black;
+    color: white;
+}
+.input{
+   width: 85%; 
+   height: 34px;
+   font-weight: bold;
+   background-color: rgb(86, 119, 53);
+   font-size: large;
+   color: white;
+
+}
+.button{
+    width: 13%;
+    height: 38px;
+    font-weight: bold;
+}
+.task{
+    border: 1px solid black;
+    /* display: flex; */
+    /* justify-content: space-evenly; */
+    font-weight: bold;
+    font-size: 2rem;
+    font-style: italic;
+    
+}
+.list{
+    border: 1px solid black;
+    font-weight: bold;
+    font-size: 2rem;
+    font-style: italic;
+}
+.delete{
+    margin-left: 7rem;
+    text-align: end;
+}
+.checkbox{
+    margin-right: 7rem;
+    
+}
