@@ -1,0 +1,104 @@
+{
+  "todo": [
+    {
+      "id": 1,
+      "text": "Push up",
+      "done": true,
+      "count": 2
+    },
+    {
+      "id": 2,
+      "text": "Pull Up",
+      "done": true,
+      "count": 3
+    },
+    {
+      "id": 3,
+      "text": "Squats",
+      "done": false,
+      "count": 1
+    },
+    {
+      "id": 4,
+      "text": "Sprint",
+      "done": false,
+      "count": 5
+    },
+    {
+      "id": 5,
+      "text": "Stairs",
+      "done": false,
+      "count": 200
+    },
+    {
+      "text": "Bread",
+      "done": false,
+      "id": 6
+    },
+    {
+      "text": "Milk",
+      "done": false,
+      "id": 7
+    },
+    {
+      "text": "Eggs",
+      "done": false,
+      "id": 8
+    },
+    {
+      "text": "Water",
+      "done": false,
+      "id": 9
+    },
+    {
+      "text": "Comb",
+      "done": false,
+      "id": 10
+    },
+    {
+      "text": "Mirror",
+      "done": false,
+      "id": 11
+    },
+    {
+      "text": "",
+      "done": false,
+      "id": 12
+    },
+    {
+      "text": "",
+      "done": false,
+      "id": 13
+    },
+    {
+      "text": "",
+      "done": false,
+      "id": 14
+    },
+    {
+      "text": "Reema",
+      "done": false,
+      "id": 15
+    },
+    {
+      "text": "Nitin",
+      "done": false,
+      "id": 16
+    },
+    {
+      "text": "Arun",
+      "done": false,
+      "id": 17
+    },
+    {
+      "text": "veena",
+      "done": false,
+      "id": 18
+    },
+    {
+      "text": "Geeta",
+      "done": false,
+      "id": 19
+    }
+  ]
+}
