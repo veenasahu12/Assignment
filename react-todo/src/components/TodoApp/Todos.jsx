@@ -9,7 +9,7 @@ const Todos = () =>  {
     const [newtodo,setNewTodo] = useState("")
 
     const saveinfo = () => {
-        fetch("http://localhost:8080/todo",{
+        fetch("http://localhost:8081/todo",{
             method: "POST",
             headers:{
                 "content-type" : "application/JSON"
@@ -21,18 +21,24 @@ const Todos = () =>  {
         })
         .then((r) => r.json())
         .then((d) => {
-            setTodo([[...todo , d]])
+            // setTodo([[...todo , d]])
+            console.log(todo)
+            fetchinfo()
             setNewTodo("")
         })
     }
 
-useEffect(()=>{
-    fetch("http://localhost:8080/todo?_page=1&_limit=5")
+    const fetchinfo = () => {
+        fetch("http://localhost:8081/todo")
         .then((r) => r.json())
         .then((d) => {
             // console.log(d);
             setTodo(d)
         })
+    }
+
+useEffect(()=>{
+    fetchinfo();
     },[])
     return (
         <div className='maindiv'>
