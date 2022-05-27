@@ -3,12 +3,12 @@ import { useState, useEffect } from "react";
 
 function Timer() {
   const [time, setTime] = useState(0);
-  const [timerOn, setTimerOn] = useState(false); 
+  const [timeron, setTimerOn] = useState(false); 
 
 useEffect(() => {
     let interval = null; 
 
-    if (timerOn) {
+    if (timeron) {
       interval = setInterval(() => {
         setTime((prevTime) => prevTime + 10);
       }, 10);
@@ -18,7 +18,7 @@ useEffect(() => {
 
 return () => clearInterval(interval);
 
-}, [timerOn]);
+}, [timeron]);
 
   return (
     <div>
