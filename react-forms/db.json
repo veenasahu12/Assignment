@@ -19,27 +19,27 @@
       "id": 4
     },
     {
-      "name": "Veena Sahu",
+      "name": "John",
       "age": "21",
-      "address": "Ainthapali, -",
+      "address": "Chandni chauk",
       "department": "Management",
       "salary": "200000",
       "status": "Unmarried",
       "id": 5
     },
     {
-      "name": "arun ",
+      "name": "Emma",
       "age": "48",
-      "address": "ainthapali",
+      "address": "Bandra",
       "department": "Placements",
       "salary": "200000",
       "status": "Married",
       "id": 6
     },
     {
-      "name": "Veena Sahu",
+      "name": "Jay",
       "age": "56",
-      "address": "Ainthapali, -",
+      "address": "Puri",
       "department": "Teaching",
       "salary": "20000",
       "status": "Married",
@@ -47,21 +47,12 @@
     },
     {
       "name": "Veena Sahu",
-      "age": "23",
-      "address": "Ainthapali, -",
+      "age": "21",
+      "address": "Ainthapali",
       "department": "IA",
       "salary": "200000000",
       "status": "Married",
       "id": 8
-    },
-    {
-      "name": "reema",
-      "age": "24",
-      "address": "Ainthapali, ",
-      "department": "Placements",
-      "salary": "400000000",
-      "status": "Married",
-      "id": 9
     }
   ]
 }
