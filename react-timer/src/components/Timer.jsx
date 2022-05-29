@@ -37,7 +37,7 @@ return () => clearInterval(interval);
           <button onClick={() => setTimerOn(true)} >Start</button>
           <button onClick={() => setTimerOn(false)}> Stop</button>
           <button onClick={() => setTimerOn(true)}> Resume </button>
-          <button onClick={() => setTime(0)} > Reset</button>
+          <button onClick={() => setTime(0)}> Reset</button>
         </div>
       </div>
     </div>

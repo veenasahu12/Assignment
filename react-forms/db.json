@@ -1,0 +1,67 @@
+{
+  "data": [
+    {
+      "name": "Lebron",
+      "age": "31",
+      "address": "Miami",
+      "department": "Management",
+      "salary": "37000",
+      "status": "Married",
+      "id": 3
+    },
+    {
+      "name": "Ray Allen",
+      "age": "24",
+      "address": "Andheri West",
+      "department": "Teaching",
+      "salary": "10000",
+      "status": "Unmarried",
+      "id": 4
+    },
+    {
+      "name": "Veena Sahu",
+      "age": "21",
+      "address": "Ainthapali, -",
+      "department": "Management",
+      "salary": "200000",
+      "status": "Unmarried",
+      "id": 5
+    },
+    {
+      "name": "arun ",
+      "age": "48",
+      "address": "ainthapali",
+      "department": "Placements",
+      "salary": "200000",
+      "status": "Married",
+      "id": 6
+    },
+    {
+      "name": "Veena Sahu",
+      "age": "56",
+      "address": "Ainthapali, -",
+      "department": "Teaching",
+      "salary": "20000",
+      "status": "Married",
+      "id": 7
+    },
+    {
+      "name": "Veena Sahu",
+      "age": "23",
+      "address": "Ainthapali, -",
+      "department": "IA",
+      "salary": "200000000",
+      "status": "Married",
+      "id": 8
+    },
+    {
+      "name": "reema",
+      "age": "24",
+      "address": "Ainthapali, ",
+      "department": "Placements",
+      "salary": "400000000",
+      "status": "Married",
+      "id": 9
+    }
+  ]
+}
