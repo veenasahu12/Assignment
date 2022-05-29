@@ -61,9 +61,9 @@ axios({
             <label htmlFor="">Select Department: </label>
             <select onChange={handleChange} id="department" className="dep">
                <option value="">- - - - - - - - - -</option>
-               <option value="IA">IA</option>
+               <option value="CA">CA</option>
                <option value="Teaching">Teaching</option>
-               <option value="Placements">Placements</option>
+               <option value="Developers">Developers</option>
                <option value="Management">Management</option>
             </select>
             <input
