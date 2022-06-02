@@ -10,7 +10,7 @@ const Navbar = (props) => {
 
    const {isAuthorised,login,logout} = useContext(AuthContext);
    const {buy} = useContext(CartContext);
-   const { isLight , toggleTheme} = useContext(ThemeContext)
+   const {theme , toggleTheme} = useContext(ThemeContext)
 
     return (
         <div>
@@ -22,7 +22,7 @@ const Navbar = (props) => {
                 {isAuthorised ? "Logout" : "Login"}
                 </button>
                 <button onClick={buy}>Buy</button>
-                <button onClick={toggleTheme}>{`Mase ${isLight ? "Dark" : "Light"}`}</button>
+                <button onClick={toggleTheme}>{`Make ${theme === "light"  ? "Dark" : "Light"}`}</button>
             {isAuthorised && <Wislist/>}
         </div>
     )

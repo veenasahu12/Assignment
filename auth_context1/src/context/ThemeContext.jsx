@@ -5,7 +5,7 @@ import { createContext } from 'react'
 const ThemeContext = createContext();
 export const ThemeProvider = ({children}) => {
 
-    const [theme , setTheme] = useState("Light");
+    const [theme , setTheme] = useState("light");
 
     const toggleTheme = () => {
         if(theme === "light"){
@@ -14,8 +14,8 @@ export const ThemeProvider = ({children}) => {
     }
     return (
         <ThemeContext.Provider value={{
-            theme,isLight: theme === "light",
-            toggleTheme: toggleTheme
+            theme,
+            toggleTheme
         }}>
         {children}
         </ThemeContext.Provider>

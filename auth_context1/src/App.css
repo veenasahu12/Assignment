@@ -3,12 +3,12 @@
   height: 100vh;
 }
 
-.light{
+.Light{
   background-color: white;
   color: black;
 }
 
-.dark{
+.Dark{
   background-color: black;
   color: white;
 }
