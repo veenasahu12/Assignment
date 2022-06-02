@@ -5,7 +5,7 @@ const Navbar = (props) => {
         <div>
            <a href='/' >Home</a> 
            <a href='/about'>About</a>
-           <a href='/product'>Product</a>
+           <a href='/product'>Pcdroduct</a>
         </div>
     )
 }
