@@ -3,10 +3,7 @@ import TodoItems from './TodoItems'
 import TodoList from './TodoList';
 import "./todo.css"
 
-
-
 const Todo = () => {
-
 const [todo,setTodo] = useState([]);
 
 const additems = (data) =>{
