@@ -9,7 +9,6 @@ const Navbar = (props) => {
     const handleLoginClick = () => {
         if(isAuth){
            logout();
-           navigate("/")
         }else{
         navigate("/login")
         }
@@ -17,8 +16,8 @@ const Navbar = (props) => {
     return (
         <div style={{padding: "10px" , display:"flex"}}>
             Navbar:
-            <Link To="" >Home</Link>
-            <Link To="/feeds" >Feeds</Link>
+            <Link To="">Home</Link>
+            <Link To="/feeds">Feeds</Link>
             <button onClick={handleLoginClick}>{isAuth? "Logout" : "Login"}</button>
         </div>
     )

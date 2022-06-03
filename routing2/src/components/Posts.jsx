@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Feeds = (props) => {
+const Posts = (props) => {
     return (
         <div>
-           Feeds 
+            posts
         </div>
     )
 }
 
-export default Feeds
+export default Posts

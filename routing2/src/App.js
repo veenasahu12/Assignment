@@ -4,6 +4,7 @@ import './App.css';
 import Home from './components/Home';
 import Feeds from './components/Feeds';
 import Login from './components/Login';
+import RequireAuth from './hoc/RequireAuth';
 
 
 function App() {
@@ -12,8 +13,12 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="" element={<Home />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="feeds" element={<Feeds />} />
+        <Route path="login" element={<Login />} />
+        <Route path="feeds" element={
+          <RequireAuth>
+            <Feeds />
+        </RequireAuth>
+        } />
       </Routes>
     </div>
   );
