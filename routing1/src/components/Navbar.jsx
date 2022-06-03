@@ -1,11 +1,19 @@
 import React from 'react'
+import {Link, useNavigate} from 'react-router-dom'
 
 const Navbar = (props) => {
+    const navigate = useNavigate()
+    const handleClick = (id) => {
+          if(id === 1){
+              navigate("/products/1")
+          }
+    }
     return (
         <div>
-           <a href='/' >Home</a> 
-           <a href='/about'>About</a>
-           <a href='/product'>Pcdroduct</a>
+           <Link to='/' >Home</Link> 
+           <Link to='/about'>About</Link>
+           <Link to='/products'>Products</Link>
+           <button onClick={() => handleClick(1)}>Go To Product 1</button>
         </div>
     )
 }
