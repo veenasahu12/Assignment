@@ -12,12 +12,12 @@ function App() {
     <div className="App">
       <Navbar />
       <Routes>
-        <Route path="" element={<Home />} />
-        <Route path="login" element={<Login />} />
-        <Route path="feeds" element={
+        <Route path="/" element={<Home />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/feeds" element={
           <RequireAuth>
             <Feeds />
-        </RequireAuth>
+          </RequireAuth>
         } />
       </Routes>
     </div>

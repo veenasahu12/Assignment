@@ -1,5 +1,5 @@
 import React,{createContext,useState} from 'react'
-import { useLocation, useNavigate } from 'react-router-dom';
+import { useLocation,useNavigate } from 'react-router-dom';
 
 
 const AuthContext = createContext();
@@ -9,12 +9,14 @@ export const AuthProvider = ({children}) => {
     const navigate = useNavigate()
     const {state} = useLocation()
 
+    console.log(state,"state");
+
     // console.log(location);
 
-   const login = () => {
+    const login = () => {
         setIsAuth(true);
-        if(state.from){
-        navigate(state.from, {replace: true})
+        if(state?.from){
+            navigate(state?.from, {replace: true})
         }else{
             navigate("/")
         }
@@ -25,7 +27,7 @@ export const AuthProvider = ({children}) => {
         navigate("/")
     }
     return (
-        <AuthContext.Provider value={({isAuth , login , logout})}>
+        <AuthContext.Provider value={{isAuth , login , logout}}>
           {children}
         </AuthContext.Provider>
     )

@@ -4,8 +4,8 @@ import AuthContext from '../context/AuthContext'
 
 const RequireAuth = ({children}) => {
     const {isAuth} = useContext(AuthContext)
-    const {pathname} = useLocation();
-    // console.log(location , location.pathname)
+    // const {pathname} = useLocation();
+    console.log(useLocation,"useLocation")
 
     if(isAuth){
         return children;

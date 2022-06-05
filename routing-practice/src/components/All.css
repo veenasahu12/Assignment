@@ -1,0 +1,11 @@
+.employee_card{
+    text-decoration: none;
+    /* display: flex; */
+    flex-direction: column;
+    height: 100px;
+    width: 600px;
+}
+.list_container{
+    display: flex;
+    
+}

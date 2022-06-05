@@ -2,8 +2,10 @@ import React from 'react'
 import {Link, useNavigate} from 'react-router-dom'
 
 const Navbar = (props) => {
+
     const navigate = useNavigate()
     const handleClick = (id) => {
+        
           if(id === 1){
               navigate("/products/1")
           }

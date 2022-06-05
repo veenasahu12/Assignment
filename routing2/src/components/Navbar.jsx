@@ -16,8 +16,9 @@ const Navbar = (props) => {
     return (
         <div style={{padding: "10px" , display:"flex"}}>
             Navbar:
-            <Link To="">Home</Link>
+            <Link To="/">Home</Link>
             <Link To="/feeds">Feeds</Link>
+            {/* <Link To="/login">Login</Link> */}
             <button onClick={handleLoginClick}>{isAuth? "Logout" : "Login"}</button>
         </div>
     )
