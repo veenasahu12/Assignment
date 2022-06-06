@@ -5,7 +5,7 @@ import AuthContext from "../Context/AuthContext";
 import { useContext } from "react";
 
 export const Admin = () => {
-  const [state,dispatch] = useContext(AuthContext);
+  const [state] = useContext(AuthContext);
   const [form , setForm] = useState({
     employee_name: "",
     employee_id:"",
@@ -36,9 +36,6 @@ export const Admin = () => {
     })
     .then((r) => {
       console.log(r)
-      dispatch({
-        type:"ADD_EMPLOYEE"
-      })
     })
   }
 
