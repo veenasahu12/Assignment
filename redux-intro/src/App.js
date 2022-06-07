@@ -14,6 +14,9 @@ function App() {
       <h1>Counter : {state.count}</h1>
       <div>
         <input type="Number" onChange={e => setValue(e.target.value)}/>
+        <br />
+        <span>Value : {value}</span>
+        <br />
         <button onClick={() => dispatch(Add(value))}>ADD</button>
         <button onClick={() => dispatch(sub(value))}>SUBTRACT</button>
         <button onClick={() => dispatch(Multiply(value))}>MULTIPLY</button>
