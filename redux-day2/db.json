@@ -39,6 +39,11 @@
       "name": "ice",
       "isCompleted": false,
       "id": 7
+    },
+    {
+      "name": "lassi",
+      "isCompleted": false,
+      "id": 8
     }
   ]
 }
